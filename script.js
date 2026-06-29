@@ -30,3 +30,4 @@ async function loadTable(jsonFile, tableId) {
 loadTable("data/batters.json", "battingTable");
 loadTable("data/pitchers.json", "pitchingTable");
 loadTable("data/batters_ccl.json", "cclbattingTable");
+loadTable("data/pitchers_ccl.json", "cclpitchingTable")

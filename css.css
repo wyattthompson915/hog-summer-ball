@@ -1,17 +1,33 @@
-body{
+body {
     font-family: Arial;
-    margin:40px;
+    margin: 40px;
+    background-color: #a92e40;
+    color: #fff;
 }
 
-table{
-    border-collapse:collapse;
+table {
+    border-collapse: collapse;
+    width: 100%;          /* ensures table isn't collapsed */
+    border: 1px solid #333; /* outer border for visibility */
 }
 
-th, td{
-    border:1px solid #ccc;
-    padding:8px 12px;
+th, td {
+    border: 1px solid #000000;  /* darker than #ccc */
+    padding: 8px 12px;
 }
 
-th{
-    background:#eeeeee;
+th {
+    background: #424242;
+    color: #fff
+}
+
+tr {
+    background-color: #c7c8ca;
+    color: #424242;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: bold;
 }
